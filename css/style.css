@@ -1,0 +1,51 @@
+/* All common css start */
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,ol{
+  list-style-type: none;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* All common css end */
+
+#headerpart {
+  padding: 30px;
+  background: rgb(0, 0, 0);
+  
+}
+
+.conHeaderPart {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.manu ul li {
+  display: inline-block;
+}
+
+.manu ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight:600 ;
+  font-size: 15px;
+  padding: 0 25px ;
+  transition: 0.4s;
+}
+.manu ul li a:hover {
+  background: tomato;
+
+}
+
+
+
